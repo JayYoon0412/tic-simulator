@@ -1,0 +1,50 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#main-heading {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#board-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 370px;
+    margin: auto;
+}
+
+.board-square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: 200;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border: 1px solid white;
+}
+
+#turn-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    width: 370px;
+    height: 30px;
+    margin: auto auto 30px auto;
+}
+
+#restart-game {
+    display:inline-block;
+    width: 200px;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
